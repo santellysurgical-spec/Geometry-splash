@@ -1,0 +1,6 @@
+{
+  "name": "GD World Analyzer",
+  "description": "Geometry Dash world analyzer for gameplay patterns and level improvements, with custom level builder, format translator, and cross-platform sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Telemetry Pulse Line -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,76 L40,76 L48,64 L56,64 L66,48 L84,48" />
+    
+    <!-- Neon Magenta Spike Hazard -->
+    <path
+        android:fillColor="#FF007F"
+        android:strokeColor="#FF66B2"
+        android:strokeWidth="1.2"
+        android:pathData="M50,76 L57,62 L64,76 Z" />
+    
+    <!-- Jump Orb Glow -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M76,40 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0" />
+
+    <!-- Geometry Dash Character Cube (In mid-air jump) -->
+    <group
+        android:pivotX="45"
+        android:pivotY="45"
+        android:rotation="-15">
+        <!-- Main body -->
+        <path
+            android:fillColor="#00F0FF"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:pathData="M34,34 h22 v22 h-22 z" />
+        <!-- Inner accent eye/face -->
+        <path
+            android:fillColor="#00FF88"
+            android:strokeColor="#004D28"
+            android:strokeWidth="1"
+            android:pathData="M40,40 h10 v10 h-10 z" />
+        <path
+            android:fillColor="#001F18"
+            android:pathData="M44,43 h3 v5 h-3 z" />
+    </group>
+</vector>
